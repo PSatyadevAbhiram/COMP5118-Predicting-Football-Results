@@ -1,5 +1,5 @@
 # COMP5118-Predicting-Football-Results
-The aim of this paper is to maximize the utility of already processed data and incorporate into a machine learning model. 
+The aim of this project is to maximize the utility of already processed data and incorporate into a machine learning model. 
 For this, I plan to use FIFA ratings of players, referees and the existing football datasets. 
 Using original FIFA ratings gives an overview of how good or bad a player is. 
 I plan to build a classifier model that will predict the result of the game. 
