@@ -1,0 +1,36 @@
+def makeSeasonDataEven(df):
+    df['HomeTeam'] = df['HomeTeam'].replace("Newcastle", "Newcastle United")
+    df['AwayTeam'] = df['AwayTeam'].replace("Newcastle", "Newcastle United")
+    df['HomeTeam'] = df['HomeTeam'].replace("Wolves", "Wolverhampton Wanderers")
+    df['AwayTeam'] = df['AwayTeam'].replace("Wolves", "Wolverhampton Wanderers")
+    df['HomeTeam'] = df['HomeTeam'].replace("Norwich", "Norwich City")
+    df['AwayTeam'] = df['AwayTeam'].replace("Norwich", "Norwich City")
+    df['HomeTeam'] = df['HomeTeam'].replace("Brighton", "Brighton and Hove Albion")
+    df['AwayTeam'] = df['AwayTeam'].replace("Brighton", "Brighton and Hove Albion")
+    df['HomeTeam'] = df['HomeTeam'].replace("Leeds", "Leeds United")
+    df['AwayTeam'] = df['AwayTeam'].replace("Leeds", "Leeds United")
+    df['HomeTeam'] = df['HomeTeam'].replace("Huddersfield", "Huddersfield Town")
+    df['AwayTeam'] = df['AwayTeam'].replace("Huddersfield", "Huddersfield Town")
+    df['HomeTeam'] = df['HomeTeam'].replace("Cardiff", "Cardiff City")
+    df['AwayTeam'] = df['AwayTeam'].replace("Cardiff", "Cardiff City")
+    df['HomeTeam'] = df['HomeTeam'].replace("Stoke", "Stoke City")
+    df['AwayTeam'] = df['AwayTeam'].replace("Stoke", "Stoke City")
+    df['HomeTeam'] = df['HomeTeam'].replace("Swansea", "Swansea City")
+    df['AwayTeam'] = df['AwayTeam'].replace("Swansea", "Swansea City")
+    df['HomeTeam'] = df['HomeTeam'].replace("Hull", "Hull City")
+    df['AwayTeam'] = df['AwayTeam'].replace("Hull", "Hull City")
+    df['HomeTeam'] = df['HomeTeam'].replace("QPR", "Queens Park Rangers")
+    df['AwayTeam'] = df['AwayTeam'].replace("QPR", "Queens Park Rangers")
+    df['HomeTeam'] = df['HomeTeam'].replace("Wigan", "Wigan Athletic")
+    df['AwayTeam'] = df['AwayTeam'].replace("Wigan", "Wigan Athletic")
+    return df
+
+
+def makeTeamsDataEven(df):
+    df['Name'] = df['Name'].replace("Leicester City", "Leicester")
+    df['Name'] = df['Name'].replace("Tottenham Hotspur", "Tottenham")
+    df['Name'] = df['Name'].replace("AFC Bournemouth", "Bournemouth")
+    df['Name'] = df['Name'].replace("Brighton & Hove Albion", "Brighton and Hove Albion")
+    df['Name'] = df['Name'].replace("West Ham United", "West Ham")
+    df['Name'] = df['Name'].replace("West Bromwich Albion", "West Brom")
+    return df

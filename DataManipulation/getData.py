@@ -1,0 +1,32 @@
+import pandas as pd
+
+df_s13 = pd.read_csv("C:/Datasets/s13.csv")
+df_s14 = pd.read_csv("C:/Datasets/s14.csv")
+df_s15 = pd.read_csv("C:/Datasets/s15.csv")
+df_s16 = pd.read_csv("C:/Datasets/s16.csv")
+df_s17 = pd.read_csv("C:/Datasets/s17.csv")
+df_s18 = pd.read_csv("C:/Datasets/s18.csv")
+df_s19 = pd.read_csv("C:/Datasets/s19.csv")
+df_s20 = pd.read_csv("C:/Datasets/s20.csv")
+df_s22 = pd.read_csv("C:/Datasets/s22.csv")
+
+df_r13 = pd.read_csv("C:/Datasets/r13.csv")
+df_r14 = pd.read_csv("C:/Datasets/r14.csv")
+df_r15 = pd.read_csv("C:/Datasets/r15.csv")
+df_r16 = pd.read_csv("C:/Datasets/r16.csv")
+df_r17 = pd.read_csv("C:/Datasets/r17.csv")
+df_r18 = pd.read_csv("C:/Datasets/r18.csv")
+df_r19 = pd.read_csv("C:/Datasets/r19.csv")
+df_r20 = pd.read_csv("C:/Datasets/r20.csv")
+df_r22 = pd.read_csv("C:/Datasets/r22.csv")
+
+df_t13 = pd.read_csv("C:/Datasets/t13.csv")
+df_t14 = pd.read_csv("C:/Datasets/t14.csv")
+df_t15 = pd.read_csv("C:/Datasets/t15.csv")
+df_t16 = pd.read_csv("C:/Datasets/t16.csv")
+df_t17 = pd.read_csv("C:/Datasets/t17.csv")
+df_t18 = pd.read_csv("C:/Datasets/t18.csv")
+df_t19 = pd.read_csv("C:/Datasets/t19.csv")
+df_t20 = pd.read_csv("C:/Datasets/t20.csv")
+df_t22 = pd.read_csv("C:/Datasets/t22.csv")
+
